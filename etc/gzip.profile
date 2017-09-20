@@ -1,23 +1,7 @@
-# Firejail profile for gzip
-# This file is overwritten after every install/update
+# Firejail profile alias for generic-compression
 quiet
-# Persistent local customizations
-include /etc/firejail/gzip.local
-# Persistent global definitions
-include /etc/firejail/globals.local
+# This file is overwritten after every install/update
 
-blacklist /tmp/.X11-unix
 
-ignore noroot
-net none
-no3d
-nodvd
-nosound
-notv
-novideo
-shell none
-tracelog
-
-private-dev
-
-include /etc/firejail/default.profile
+# Redirect
+include /etc/firejail/generic-compression.profile
