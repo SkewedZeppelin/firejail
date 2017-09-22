@@ -15,9 +15,8 @@ include /etc/firejail/disable-programs.inc
 
 mkfile ${HOME}/.linphone-history.db
 mkfile ${HOME}/.linphonerc
-whitelist ${HOME}/.linphone-history.db
-whitelist ${HOME}/.linphonerc
 whitelist ${HOME}/Downloads
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

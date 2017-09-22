@@ -14,6 +14,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.zoom
 whitelist ${HOME}/.cache/zoom
 whitelist ${HOME}/.zoom
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

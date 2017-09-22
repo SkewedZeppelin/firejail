@@ -17,9 +17,7 @@ mkdir ${HOME}/.cache/epiphany
 mkdir ${HOME}/.config/epiphany
 mkdir ${HOME}/.local/share/epiphany
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/epiphany
-whitelist ${HOME}/.config/epiphany
-whitelist ${HOME}/.local/share/epiphany
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

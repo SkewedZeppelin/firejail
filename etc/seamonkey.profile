@@ -17,22 +17,20 @@ mkdir ${HOME}/.cache/mozilla
 mkdir ${HOME}/.mozilla
 whitelist ${DOWNLOADS}
 whitelist ${HOME}/.cache/gnome-mplayer/plugin
-whitelist ${HOME}/.cache/mozilla
 whitelist ${HOME}/.config/gnome-mplayer
 whitelist ${HOME}/.config/pipelight-silverlight5.1
 whitelist ${HOME}/.config/pipelight-widevine
 whitelist ${HOME}/.keysnail.js
 whitelist ${HOME}/.lastpass
-whitelist ${HOME}/.mozilla
 whitelist ${HOME}/.pentadactyl
 whitelist ${HOME}/.pentadactylrc
-whitelist ${HOME}/.pki
 whitelist ${HOME}/.vimperator
 whitelist ${HOME}/.vimperatorrc
 whitelist ${HOME}/.wine-pipelight
 whitelist ${HOME}/.wine-pipelight64
 whitelist ${HOME}/.zotero
 whitelist ${HOME}/dwhelper
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

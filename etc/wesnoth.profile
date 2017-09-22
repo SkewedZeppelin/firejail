@@ -17,9 +17,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/wesnoth
 mkdir ${HOME}/.config/wesnoth
 mkdir ${HOME}/.local/share/wesnoth
-whitelist ${HOME}/.cache/wesnoth
-whitelist ${HOME}/.config/wesnoth
-whitelist ${HOME}/.local/share/wesnoth
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

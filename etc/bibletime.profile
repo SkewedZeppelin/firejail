@@ -17,9 +17,7 @@ include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-whitelist ${HOME}/.bibletime
-whitelist ${HOME}/.config/qt5ct
-whitelist ${HOME}/.sword
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

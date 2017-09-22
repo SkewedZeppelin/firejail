@@ -24,12 +24,7 @@ mkfile ${HOME}/.config/ktorrentrc
 mkfile ${HOME}/.kde/share/config/ktorrentrc
 mkfile ${HOME}/.kde4/share/config/ktorrentrc
 whitelist  ${DOWNLOADS}
-whitelist ${HOME}/.config/ktorrentrc
-whitelist ${HOME}/.kde/share/apps/ktorrent
-whitelist ${HOME}/.kde/share/config/ktorrentrc
-whitelist ${HOME}/.kde4/share/apps/ktorrent
-whitelist ${HOME}/.kde4/share/config/ktorrentrc
-whitelist ${HOME}/.local/share/ktorrent
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

@@ -15,7 +15,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.dooble
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.dooble
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -13,7 +13,7 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/aweather
-whitelist ${HOME}/.config/aweather
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

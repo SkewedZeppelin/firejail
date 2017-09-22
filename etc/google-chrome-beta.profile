@@ -17,9 +17,7 @@ mkdir ${HOME}/.cache/google-chrome-beta
 mkdir ${HOME}/.config/google-chrome-beta
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/google-chrome-beta
-whitelist ${HOME}/.config/google-chrome-beta
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.keep sys_chroot,sys_admin

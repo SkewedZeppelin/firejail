@@ -17,10 +17,7 @@ mkdir ${HOME}/.cache/thunderbird
 mkdir ${HOME}/.gnupg
 mkdir ${HOME}/.icedove
 mkdir ${HOME}/.thunderbird
-whitelist ${HOME}/.cache/thunderbird
-whitelist ${HOME}/.gnupg
-whitelist ${HOME}/.icedove
-whitelist ${HOME}/.thunderbird
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

@@ -21,11 +21,7 @@ mkdir ${HOME}/.googleearth/Cache/
 mkdir ${HOME}/.googleearth/Temp/
 mkfile ${HOME}/.googleearth/myplaces.backup.kml
 mkfile ${HOME}/.googleearth/myplaces.kml
-whitelist ${HOME}/.config/Google
-whitelist ${HOME}/.googleearth/Cache/
-whitelist ${HOME}/.googleearth/Temp/
-whitelist ${HOME}/.googleearth/myplaces.backup.kml
-whitelist ${HOME}/.googleearth/myplaces.kml
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/vivaldi
 mkdir ${HOME}/.config/vivaldi
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/vivaldi
-whitelist ${HOME}/.config/vivaldi
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.keep sys_chroot,sys_admin

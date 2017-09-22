@@ -16,8 +16,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.config/qt5ct
 mkdir ${HOME}/.config/tox
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.config/qt5ct
-whitelist ${HOME}/.config/tox
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -14,7 +14,7 @@ include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/hexchat
-whitelist ${HOME}/.config/hexchat
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

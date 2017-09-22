@@ -12,7 +12,7 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.local/share/supertux2
-whitelist ${HOME}/.local/share/supertux2
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

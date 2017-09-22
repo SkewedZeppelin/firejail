@@ -17,9 +17,7 @@ mkdir ${HOME}/.cache/google-chrome
 mkdir ${HOME}/.config/google-chrome
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/google-chrome
-whitelist ${HOME}/.config/google-chrome
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

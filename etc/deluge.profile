@@ -14,7 +14,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/deluge
 whitelist  ${DOWNLOADS}
-whitelist ${HOME}/.config/deluge
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

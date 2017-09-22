@@ -16,9 +16,7 @@ mkdir ${HOME}/.cache/inox
 mkdir ${HOME}/.config/inox
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/inox
-whitelist ${HOME}/.config/inox
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.keep sys_chroot,sys_admin

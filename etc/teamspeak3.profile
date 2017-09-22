@@ -14,7 +14,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.ts3client
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.ts3client
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

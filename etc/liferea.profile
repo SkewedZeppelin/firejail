@@ -17,9 +17,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/liferea
 mkdir ${HOME}/.config/liferea
 mkdir ${HOME}/.local/share/liferea
-whitelist ${HOME}/.cache/liferea
-whitelist ${HOME}/.config/liferea
-whitelist ${HOME}/.local/share/liferea
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

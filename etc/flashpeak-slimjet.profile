@@ -22,9 +22,7 @@ mkdir ${HOME}/.cache/slimjet
 mkdir ${HOME}/.config/slimjet
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/slimjet
-whitelist ${HOME}/.config/slimjet
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

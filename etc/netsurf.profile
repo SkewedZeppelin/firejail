@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/netsurf
 mkdir ${HOME}/.config/netsurf
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/netsurf
-whitelist ${HOME}/.config/netsurf
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

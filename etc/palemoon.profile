@@ -35,8 +35,8 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/moonchild productions/pale moon
 mkdir ${HOME}/.moonchild productions
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/moonchild productions/pale moon
 whitelist ${HOME}/.moonchild productions
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

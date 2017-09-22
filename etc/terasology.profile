@@ -16,8 +16,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.java
 mkdir ${HOME}/.local/share/terasology
-whitelist ${HOME}/.java
-whitelist ${HOME}/.local/share/terasology
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

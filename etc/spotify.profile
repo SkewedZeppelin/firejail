@@ -23,9 +23,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/spotify
 mkdir ${HOME}/.config/spotify
 mkdir ${HOME}/.local/share/spotify
-whitelist ${HOME}/.cache/spotify
-whitelist ${HOME}/.config/spotify
-whitelist ${HOME}/.local/share/spotify
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

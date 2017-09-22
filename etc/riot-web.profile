@@ -7,7 +7,7 @@ include /etc/firejail/globals.local
 
 noblacklist ${HOME}/.config/Riot
 
-whitelist ${HOME}/.config/Riot
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 # Redirect

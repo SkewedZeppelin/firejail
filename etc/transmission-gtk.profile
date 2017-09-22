@@ -16,8 +16,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/transmission
 mkdir ${HOME}/.config/transmission
 whitelist  ${DOWNLOADS}
-whitelist ${HOME}/.cache/transmission
-whitelist ${HOME}/.config/transmission
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

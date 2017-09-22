@@ -19,8 +19,8 @@ mkdir ${HOME}/Dropbox
 mkfile ${HOME}/.config/autostart/dropbox.desktop
 whitelist ${HOME}/.config/autostart/dropbox.desktop
 whitelist ${HOME}/.dropbox
-whitelist ${HOME}/.dropbox-dist
 whitelist ${HOME}/Dropbox
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

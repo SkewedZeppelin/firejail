@@ -21,11 +21,7 @@ mkdir ${HOME}/.config/yandex-browser
 mkdir ${HOME}/.config/yandex-browser-beta
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/yandex-browser
-whitelist ${HOME}/.cache/yandex-browser-beta
-whitelist ${HOME}/.config/yandex-browser
-whitelist ${HOME}/.config/yandex-browser-beta
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.keep sys_chroot,sys_admin

@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.config/Rambox
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.config/Rambox
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

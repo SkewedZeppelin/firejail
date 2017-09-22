@@ -19,11 +19,8 @@ mkdir ${HOME}/.cache/qBittorrent
 mkdir ${HOME}/.config/qBittorrent
 mkdir ${HOME}/.local/share/data/qBittorrent
 whitelist  ${DOWNLOADS}
-whitelist ${HOME}/.cache/qBittorrent
-whitelist ${HOME}/.config/qBittorrent
-whitelist ${HOME}/.config/qBittorrentrc
-whitelist ${HOME}/.config/qt5ct
 whitelist ${HOME}/.local/share/data/qBittorrent
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

@@ -18,8 +18,7 @@ mkdir ${HOME}/.config/psi+
 mkdir ${HOME}/.local/share/psi+
 whitelist ${DOWNLOADS}
 whitelist ${HOME}/.cache/psi+
-whitelist ${HOME}/.config/psi+
-whitelist ${HOME}/.local/share/psi+
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

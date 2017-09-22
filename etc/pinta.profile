@@ -13,6 +13,9 @@ include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
+whitelist-noblacklisted
+include /etc/firejail/whitelist-common.inc
+
 caps.drop all
 ipc-namespace
 net none

@@ -15,9 +15,8 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.Mathematica
 mkdir ${HOME}/.Wolfram Research
-whitelist ${HOME}/.Mathematica
-whitelist ${HOME}/.Wolfram Research
 whitelist ${HOME}/Documents/Wolfram Mathematica
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

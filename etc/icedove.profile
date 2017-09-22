@@ -15,9 +15,7 @@ noblacklist ${HOME}/.icedove
 mkdir ${HOME}/.cache/icedove
 mkdir ${HOME}/.gnupg
 mkdir ${HOME}/.icedove
-whitelist ${HOME}/.cache/icedove
-whitelist ${HOME}/.gnupg
-whitelist ${HOME}/.icedove
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 ignore private-tmp

@@ -22,6 +22,7 @@ whitelist ${HOME}/.local/share/Empathy
 whitelist ${HOME}/.local/share/TpLogger
 whitelist ${HOME}/.local/share/telepathy
 whitelist ${HOME}/.purple
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -7,7 +7,7 @@ include /etc/firejail/globals.local
 
 noblacklist ${HOME}/.config/Rocket.Chat
 
-whitelist ${HOME}/.config/Rocket.Chat
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 # Redirect

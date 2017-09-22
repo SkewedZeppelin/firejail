@@ -18,6 +18,7 @@ mkdir ${HOME}/.config/mupen64plus
 mkdir ${HOME}/.local/share/mupen64plus
 whitelist ${HOME}/.config/mupen64plus/
 whitelist ${HOME}/.local/share/mupen64plus/
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

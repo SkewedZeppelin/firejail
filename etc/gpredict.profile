@@ -12,7 +12,7 @@ include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-whitelist ${HOME}/.config/Gpredict
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

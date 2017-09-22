@@ -17,9 +17,8 @@ mkdir ${HOME}/.cache/iridium
 mkdir ${HOME}/.config/iridium
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/iridium
-whitelist ${HOME}/.config/iridium
 whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 netfilter

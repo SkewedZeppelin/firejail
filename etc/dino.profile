@@ -13,8 +13,8 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.local/share/dino
-whitelist ${HOME}/.local/share/dino
 whitelist ${HOME}/Downloads
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

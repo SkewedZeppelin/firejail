@@ -17,9 +17,7 @@ mkdir ${HOME}/.cache/Franz
 mkdir ${HOME}/.config/Franz
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/Franz
-whitelist ${HOME}/.config/Franz
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

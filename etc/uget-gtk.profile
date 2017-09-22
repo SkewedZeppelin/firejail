@@ -13,7 +13,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/uGet
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.config/uGet
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

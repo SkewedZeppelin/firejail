@@ -10,6 +10,7 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 whitelist ${DOWNLOADS}
+whitelist-noblacklisted
 
 caps.drop all
 netfilter

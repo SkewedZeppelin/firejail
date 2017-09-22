@@ -19,11 +19,9 @@ mkdir ${HOME}/.config/gajim
 mkdir ${HOME}/.local/lib/python2.7/site-packages/
 mkdir ${HOME}/.local/share/gajim
 mkdir ${HOME}/Downloads
-whitelist ${HOME}/.cache/gajim
-whitelist ${HOME}/.config/gajim
 whitelist ${HOME}/.local/lib/python2.7/site-packages/
-whitelist ${HOME}/.local/share/gajim
 whitelist ${HOME}/Downloads
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

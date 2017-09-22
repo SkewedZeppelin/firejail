@@ -19,10 +19,7 @@ mkdir ${HOME}/.config/opera
 mkdir ${HOME}/.opera
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/opera
-whitelist ${HOME}/.config/opera
-whitelist ${HOME}/.opera
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 netfilter

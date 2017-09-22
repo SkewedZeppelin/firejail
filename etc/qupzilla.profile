@@ -14,8 +14,7 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/qupzilla
-whitelist ${HOME}/.config/qupzilla
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

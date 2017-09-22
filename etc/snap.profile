@@ -13,4 +13,5 @@ include /etc/firejail/disable-programs.inc
 
 whitelist ${DOWNLOADS}
 whitelist ${HOME}/snap
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc

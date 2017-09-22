@@ -25,12 +25,8 @@ whitelist ${DOWNLOADS}
 whitelist ${HOME}/.cache/gnome-mplayer/plugin
 whitelist ${HOME}/.cache/midori
 whitelist ${HOME}/.config/gnome-mplayer
-whitelist ${HOME}/.config/midori
 whitelist ${HOME}/.lastpass
-whitelist ${HOME}/.local/share/midori
-whitelist ${HOME}/.local/share/webkit
-whitelist ${HOME}/.local/share/webkitgtk
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

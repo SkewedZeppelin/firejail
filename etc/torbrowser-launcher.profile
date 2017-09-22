@@ -14,9 +14,7 @@ include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-whitelist ${HOME}/.tor-browser-en
-whitelist ${HOME}/.config/torbrowser
-whitelist ${HOME}/.local/share/torbrowser
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

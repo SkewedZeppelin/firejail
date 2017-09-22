@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/Mumble
 mkdir ${HOME}/.local/share/data/Mumble
-whitelist ${HOME}/.config/Mumble
-whitelist ${HOME}/.local/share/data/Mumble
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

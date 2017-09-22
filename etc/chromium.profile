@@ -18,10 +18,7 @@ mkdir ${HOME}/.cache/chromium
 mkdir ${HOME}/.config/chromium
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.cache/chromium
-whitelist ${HOME}/.config/chromium
-whitelist ${HOME}/.config/chromium-flags.conf
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

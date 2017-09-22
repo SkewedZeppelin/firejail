@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/stellarium
 mkdir ${HOME}/.stellarium
-whitelist ${HOME}/.config/stellarium
-whitelist ${HOME}/.stellarium
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

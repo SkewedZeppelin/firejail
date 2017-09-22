@@ -15,7 +15,7 @@ include /etc/firejail/disable-programs.inc
 include /etc/firejail/whitelist-var-common.inc
 
 mkdir ${HOME}/.local/share/gnome-2048
-whitelist ${HOME}/.local/share/gnome-2048
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

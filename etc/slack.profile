@@ -17,8 +17,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config
 mkdir ${HOME}/.config/Slack
-whitelist ${HOME}/.config/Slack
-whitelist ${HOME}/Downloads
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

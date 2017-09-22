@@ -18,9 +18,8 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/VirtualBox
 mkdir ${HOME}/VirtualBox VMs
-whitelist ${HOME}/.config/VirtualBox
-whitelist ${HOME}/VirtualBox VMs
 whitelist ${DOWNLOADS}
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

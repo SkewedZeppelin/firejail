@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.config/mono
 mkdir ${HOME}/.config/truecraft
-whitelist ${HOME}/.config/mono
-whitelist ${HOME}/.config/truecraft
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -15,8 +15,8 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.dillo
 mkdir ${HOME}/.fltk
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.dillo
 whitelist ${HOME}/.fltk
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

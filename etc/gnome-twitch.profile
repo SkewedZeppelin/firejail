@@ -15,8 +15,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.cache/gnome-twitch
 mkdir ${HOME}/.local/share/gnome-twitch
-whitelist ${HOME}/.cache/gnome-twitch
-whitelist ${HOME}/.local/share/gnome-twitch
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

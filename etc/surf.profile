@@ -13,6 +13,7 @@ include /etc/firejail/disable-programs.inc
 
 mkdir ${HOME}/.surf
 whitelist ${DOWNLOADS}
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -14,7 +14,7 @@ include /etc/firejail/disable-programs.inc
 
 # whitelist ${HOME}/.config/pulse
 # whitelist ${HOME}/.pulse
-whitelist ${HOME}/.config/Google Play Music Desktop Player
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

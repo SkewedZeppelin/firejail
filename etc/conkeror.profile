@@ -10,7 +10,6 @@ noblacklist ${HOME}/.conkeror.mozdev.org
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-programs.inc
 
-whitelist ${HOME}/.conkeror.mozdev.org
 whitelist ${HOME}/.conkerorrc
 whitelist ${HOME}/.gtkrc-2.0
 whitelist ${HOME}/.lastpass
@@ -21,6 +20,7 @@ whitelist ${HOME}/.vimperatorrc
 whitelist ${HOME}/.zotero
 whitelist ${HOME}/Downloads
 whitelist ${HOME}/dwhelper
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

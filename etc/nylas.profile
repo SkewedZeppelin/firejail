@@ -14,8 +14,7 @@ include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.config/Nylas Mail
-whitelist ${HOME}/.nylas-mail
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

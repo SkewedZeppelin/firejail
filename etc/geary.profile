@@ -13,8 +13,7 @@ noblacklist ${HOME}/.local/share/geary
 
 mkdir ${HOME}/.gnupg
 mkdir ${HOME}/.local/share/geary
-whitelist ${HOME}/.gnupg
-whitelist ${HOME}/.local/share/geary
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 ignore private-tmp

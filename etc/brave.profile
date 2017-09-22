@@ -18,12 +18,11 @@ mkdir ${HOME}/.config/brave
 mkdir ${HOME}/.pki
 whitelist ${DOWNLOADS}
 whitelist ${HOME}/.config/KeePass
-whitelist ${HOME}/.config/brave
 whitelist ${HOME}/.config/keepass
 whitelist ${HOME}/.config/lastpass
 whitelist ${HOME}/.keepass
 whitelist ${HOME}/.lastpass
-whitelist ${HOME}/.pki
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 # caps.drop all

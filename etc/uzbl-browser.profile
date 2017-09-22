@@ -17,10 +17,9 @@ mkdir ${HOME}/.gnupg
 mkdir ${HOME}/.local/share/uzbl
 mkdir ${HOME}/.password-store
 whitelist ${DOWNLOADS}
-whitelist ${HOME}/.config/uzbl
-whitelist ${HOME}/.gnupg
 whitelist ${HOME}/.local/share/uzbl
 whitelist ${HOME}/.password-store
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

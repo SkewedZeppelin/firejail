@@ -16,6 +16,7 @@ include /etc/firejail/disable-programs.inc
 # mkdir ${HOME}/.warzone2100-3.2
 whitelist ${HOME}/.warzone2100-3.1
 whitelist ${HOME}/.warzone2100-3.2
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

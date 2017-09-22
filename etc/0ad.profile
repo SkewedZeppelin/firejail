@@ -17,9 +17,7 @@ include /etc/firejail/disable-programs.inc
 mkdir ${HOME}/.cache/0ad
 mkdir ${HOME}/.config/0ad
 mkdir ${HOME}/.local/share/0ad
-whitelist ${HOME}/.cache/0ad
-whitelist ${HOME}/.config/0ad
-whitelist ${HOME}/.local/share/0ad
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

@@ -12,9 +12,7 @@ noblacklist ${HOME}/.gnupg
 mkdir ${HOME}/.cache/fossamail
 mkdir ${HOME}/.fossamail
 mkdir ${HOME}/.gnupg
-whitelist ${HOME}/.cache/fossamail
-whitelist ${HOME}/.fossamail
-whitelist ${HOME}/.gnupg
+whitelist-noblacklisted
 include /etc/firejail/whitelist-common.inc
 
 # allow browsers
