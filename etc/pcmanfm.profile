@@ -6,8 +6,8 @@ include /etc/firejail/pcmanfm.local
 include /etc/firejail/globals.local
 
 noblacklist ${HOME}/.local/share/Trash
-noblacklist ~/.config/libfm
-noblacklist ~/.config/pcmanfm
+noblacklist ${HOME}/.config/libfm
+noblacklist ${HOME}/.config/pcmanfm
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

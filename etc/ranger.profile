@@ -9,7 +9,7 @@ include /etc/firejail/globals.local
 noblacklist /usr/bin/perl
 noblacklist /usr/lib/perl*
 noblacklist /usr/share/perl*
-noblacklist ~/.config/ranger
+noblacklist ${HOME}/.config/ranger
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

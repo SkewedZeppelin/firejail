@@ -5,12 +5,12 @@ include /etc/firejail/kate.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.config/katepartrc
-noblacklist ~/.config/katerc
-noblacklist ~/.config/kateschemarc
-noblacklist ~/.config/katesyntaxhighlightingrc
-noblacklist ~/.config/katevirc
-noblacklist ~/.local/share/kate
+noblacklist ${HOME}/.config/katepartrc
+noblacklist ${HOME}/.config/katerc
+noblacklist ${HOME}/.config/kateschemarc
+noblacklist ${HOME}/.config/katesyntaxhighlightingrc
+noblacklist ${HOME}/.config/katevirc
+noblacklist ${HOME}/.local/share/kate
 
 include /etc/firejail/disable-common.inc
 # include /etc/firejail/disable-devel.inc

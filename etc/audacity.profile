@@ -5,7 +5,7 @@ include /etc/firejail/audacity.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.audacity-data
+noblacklist ${HOME}/.audacity-data
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

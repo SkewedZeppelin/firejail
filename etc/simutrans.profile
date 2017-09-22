@@ -5,14 +5,14 @@ include /etc/firejail/simutrans.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.simutrans
+noblacklist ${HOME}/.simutrans
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.simutrans
-whitelist ~/.simutrans
+mkdir ${HOME}/.simutrans
+whitelist ${HOME}/.simutrans
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

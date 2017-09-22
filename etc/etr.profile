@@ -5,14 +5,14 @@ include /etc/firejail/etr.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.etr
+noblacklist ${HOME}/.etr
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.etr
-whitelist ~/.etr
+mkdir ${HOME}/.etr
+whitelist ${HOME}/.etr
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

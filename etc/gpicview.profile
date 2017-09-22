@@ -5,7 +5,7 @@ include /etc/firejail/gpicview.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.config/gpicview
+noblacklist ${HOME}/.config/gpicview
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

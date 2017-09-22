@@ -19,7 +19,7 @@ shell none
 tracelog
 writable-var-log
 
-# The user can have a custom coloring scritps configured in ~/.lessfilter.
+# The user can have a custom coloring scritps configured in ${HOME}/.lessfilter.
 # Enable private-bin if you are not using any filter.
 # private-bin less
 private-dev

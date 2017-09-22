@@ -5,14 +5,14 @@ include /etc/firejail/frozen-bubble.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.frozen-bubble
+noblacklist ${HOME}/.frozen-bubble
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.frozen-bubble
-whitelist ~/.frozen-bubble
+mkdir ${HOME}/.frozen-bubble
+whitelist ${HOME}/.frozen-bubble
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

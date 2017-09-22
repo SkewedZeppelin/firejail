@@ -5,12 +5,12 @@ include /etc/firejail/viewnior.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-blacklist ~/.Xauthority
-blacklist ~/.bashrc
+blacklist ${HOME}/.Xauthority
+blacklist ${HOME}/.bashrc
 
-noblacklist ~/.Steam
-noblacklist ~/.config/viewnior
-noblacklist ~/.steam
+noblacklist ${HOME}/.Steam
+noblacklist ${HOME}/.config/viewnior
+noblacklist ${HOME}/.steam
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

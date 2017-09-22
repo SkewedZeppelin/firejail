@@ -5,15 +5,15 @@ include /etc/firejail/galculator.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.config/galculator
+noblacklist ${HOME}/.config/galculator
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.config/galculator
-whitelist ~/.config/galculator
+mkdir ${HOME}/.config/galculator
+whitelist ${HOME}/.config/galculator
 include /etc/firejail/whitelist-common.inc
 include /etc/firejail/whitelist-var-common.inc
 

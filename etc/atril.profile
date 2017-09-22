@@ -5,8 +5,8 @@ include /etc/firejail/atril.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.config/atril
-noblacklist ~/.local/share
+noblacklist ${HOME}/.config/atril
+noblacklist ${HOME}/.local/share
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

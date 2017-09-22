@@ -5,14 +5,14 @@ include /etc/firejail/supertux2.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.local/share/supertux2
+noblacklist ${HOME}/.local/share/supertux2
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.local/share/supertux2
-whitelist ~/.local/share/supertux2
+mkdir ${HOME}/.local/share/supertux2
+whitelist ${HOME}/.local/share/supertux2
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

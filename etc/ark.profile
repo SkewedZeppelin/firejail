@@ -5,7 +5,7 @@ include /etc/firejail/ark.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.config/arkrc
+noblacklist ${HOME}/.config/arkrc
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

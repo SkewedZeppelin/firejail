@@ -5,8 +5,8 @@ include /etc/firejail/atom.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.atom
-noblacklist ~/.config/Atom
+noblacklist ${HOME}/.atom
+noblacklist ${HOME}/.config/Atom
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc

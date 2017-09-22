@@ -5,14 +5,14 @@ include /etc/firejail/open-invaders.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.openinvaders
+noblacklist ${HOME}/.openinvaders
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-passwdmgr.inc
 include /etc/firejail/disable-programs.inc
 
-mkdir ~/.openinvaders
-whitelist ~/.openinvaders
+mkdir ${HOME}/.openinvaders
+whitelist ${HOME}/.openinvaders
 include /etc/firejail/whitelist-common.inc
 
 caps.drop all

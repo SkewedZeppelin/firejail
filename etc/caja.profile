@@ -8,9 +8,9 @@ include /etc/firejail/globals.local
 # Caja is started by systemd on most systems. Therefore it is not firejailed by default. Since there
 # is already a caja process running on MATE desktops firejail will have no effect.
 
-noblacklist ~/.config/caja
-noblacklist ~/.local/share/Trash
-noblacklist ~/.local/share/caja-python
+noblacklist ${HOME}/.config/caja
+noblacklist ${HOME}/.local/share/Trash
+noblacklist ${HOME}/.local/share/caja-python
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc

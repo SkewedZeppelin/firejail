@@ -5,7 +5,7 @@ include /etc/firejail/dia.local
 # Persistent global definitions
 include /etc/firejail/globals.local
 
-noblacklist ~/.dia
+noblacklist ${HOME}/.dia
 
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-devel.inc
