@@ -1,4 +1,5 @@
 # Firejail profile for netsurf
+# Description: small web browser with CSS support - transitional package
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/netsurf.local

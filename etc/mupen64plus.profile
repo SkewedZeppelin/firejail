@@ -1,4 +1,5 @@
 # Firejail profile for mupen64plus
+# Description: plugin-based Nintendo 64 emulator (transitional dummy package)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mupen64plus.local

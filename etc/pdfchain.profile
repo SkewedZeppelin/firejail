@@ -1,4 +1,5 @@
 # Firejail profile for pdfchain
+# Description: graphical user interface for the PDF Tool Kit
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pdfchain.local
