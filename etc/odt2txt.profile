@@ -1,4 +1,5 @@
 # Firejail profile for odt2txt
+# Description: extracts the text out of OpenDocument Texts
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/odt2txt.local

@@ -1,4 +1,5 @@
 # Firejail profile for meld
+# Description: Compare files, directories and working copies
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/meld.local

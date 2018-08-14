@@ -1,4 +1,5 @@
 # Firejail profile for emacs
+# Description: The extensible, customizable, self-documenting real-time display editor
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/emacs.local

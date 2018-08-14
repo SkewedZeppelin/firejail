@@ -1,4 +1,5 @@
 # Firejail profile for openbox
+# Description: Highly configurable and lightweight X11 window manager
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/openbox.local

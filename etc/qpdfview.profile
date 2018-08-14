@@ -1,4 +1,5 @@
 # Firejail profile for qpdfview
+# Description: A tabbed PDF viewer using the poppler library.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/qpdfview.local

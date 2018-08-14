@@ -1,4 +1,5 @@
 # Firejail profile for tar
+# Description: Utility used to store, backup, and transport files
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

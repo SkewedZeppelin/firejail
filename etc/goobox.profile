@@ -1,4 +1,5 @@
 # Firejail profile for goobox
+# Description: CD player and ripper for GNOME
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/goobox.local

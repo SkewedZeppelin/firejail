@@ -1,4 +1,5 @@
 # Firejail profile for uudeview
+# Description: UUDeview helps transmitting & receiving binary files using mail or newsgroups. Includes library files.
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

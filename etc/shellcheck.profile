@@ -1,4 +1,5 @@
 # Firejail profile for shellcheck
+# Description: Shell script analysis tool
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

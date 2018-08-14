@@ -1,4 +1,5 @@
 # Firejail profile for pitivi
+# Description: Editor for audio/video projects using the GStreamer framework
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pitivi.local

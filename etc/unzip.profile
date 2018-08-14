@@ -1,4 +1,5 @@
 # Firejail profile for unzip
+# Description: For extracting and viewing files in .zip archives
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

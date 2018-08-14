@@ -1,4 +1,5 @@
 # Firejail profile for less
+# Description: A terminal based program for viewing text files
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

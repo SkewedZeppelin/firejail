@@ -1,4 +1,5 @@
 # Firejail profile for lximage-qt
+# Description: The LXQt image viewer and screenshot tool
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/lximage-qt.local

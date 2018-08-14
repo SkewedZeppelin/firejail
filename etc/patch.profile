@@ -1,4 +1,5 @@
 # Firejail profile for patch
+# Description: A utility to apply patch files to original sources
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

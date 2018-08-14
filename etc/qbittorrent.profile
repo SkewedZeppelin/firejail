@@ -1,4 +1,5 @@
 # Firejail profile for qbittorrent
+# Description: An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/qbittorrent.local

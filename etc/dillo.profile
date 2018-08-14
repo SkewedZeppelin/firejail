@@ -1,4 +1,5 @@
 # Firejail profile for dillo
+# Description: A small, fast graphical web browser built on FLTK
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/dillo.local

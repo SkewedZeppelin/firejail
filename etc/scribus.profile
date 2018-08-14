@@ -1,4 +1,5 @@
 # Firejail profile for scribus
+# Description: Desktop publishing software
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/scribus.local

@@ -1,4 +1,5 @@
 # Firejail profile for file
+# Description: File type identification utility
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

@@ -1,4 +1,5 @@
 # Firejail profile for kdenlive
+# Description: A non-linear video editor for Linux using the MLT video framework
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/kdenlive.local

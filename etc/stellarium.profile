@@ -1,4 +1,5 @@
 # Firejail profile for stellarium
+# Description: A stellarium with great graphics and a nice database of sky-objects
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/stellarium.local

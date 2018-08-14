@@ -1,4 +1,5 @@
 # Firejail profile for evince
+# Description: Document viewer (PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt))
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/evince.local

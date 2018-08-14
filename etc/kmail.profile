@@ -1,4 +1,5 @@
 # Firejail profile for kmail
+# Description: KDE mail client
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/kmail.local

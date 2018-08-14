@@ -1,4 +1,5 @@
 # Firejail profile for frozen-bubble
+# Description: A game in which you throw colorful bubbles and build groups to destroy the bubbles
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/frozen-bubble.local

@@ -1,4 +1,5 @@
 # Firejail profile for tracker
+# Description: Desktop-neutral user information store, search tool and indexer
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/tracker.local

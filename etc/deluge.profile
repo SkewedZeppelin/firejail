@@ -1,4 +1,5 @@
 # Firejail profile for deluge
+# Description: A BitTorrent client with multiple user interfaces in a client/server model
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/deluge.local

@@ -1,4 +1,5 @@
 # Firejail profile for gthumb
+# Description: Image browser and viewer for the GNOME Desktop
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gthumb.local

@@ -1,4 +1,5 @@
 # Firejail profile for empathy
+# Description: A GNOME instant messaging client using the Telepathy framework
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/empathy.local

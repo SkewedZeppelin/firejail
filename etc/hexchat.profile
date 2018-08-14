@@ -1,4 +1,5 @@
 # Firejail profile for hexchat
+# Description: A popular and easy to use graphical IRC (chat) client
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/hexchat.local

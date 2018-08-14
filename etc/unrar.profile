@@ -1,4 +1,5 @@
 # Firejail profile for unrar
+# Description: The RAR uncompression program
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

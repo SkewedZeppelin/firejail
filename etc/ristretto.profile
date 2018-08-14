@@ -1,4 +1,5 @@
 # Firejail profile for ristretto
+# Description: Fast and lightweight picture-viewer for Xfce4
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/ristretto.local

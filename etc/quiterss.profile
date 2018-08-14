@@ -1,4 +1,5 @@
 # Firejail profile for quiterss
+# Description: Fast and light RSS/Atom feed reader written in Qt/С++
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/quiterss.local

@@ -1,4 +1,5 @@
 # Firejail profile for hedgewars
+# Description: Turn-based strategy artillery game similiar to Worms
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/hedgewars.local

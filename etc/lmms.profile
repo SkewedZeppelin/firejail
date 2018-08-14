@@ -1,4 +1,5 @@
 # Firejail profile for lmms
+# Description: The Linux MultiMedia Studio.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/lmms.local

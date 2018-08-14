@@ -1,4 +1,5 @@
 # Firejail profile for 0ad
+# Description: Cross-platform, 3D and historically-based real-time strategy game
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/0ad.local

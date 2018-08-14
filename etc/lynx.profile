@@ -1,4 +1,5 @@
 # Firejail profile for lynx
+# Description: A text browser for the World Wide Web
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/lynx.local

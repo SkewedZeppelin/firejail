@@ -1,4 +1,5 @@
 # Firejail profile for pingus
+# Description: A Lemmings clone, i.e. a level-based puzzle game.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pingus.local

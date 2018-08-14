@@ -1,4 +1,5 @@
 # Firejail profile for falkon
+# Description: Cross-platform QtWebEngine browser
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/falkon.local

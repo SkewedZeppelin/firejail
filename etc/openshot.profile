@@ -1,4 +1,5 @@
 # Firejail profile for openshot
+# Description: an open-source, non-linear video editor for Linux based on MLT framework
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/openshot.local

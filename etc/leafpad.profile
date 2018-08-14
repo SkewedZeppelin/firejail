@@ -1,4 +1,5 @@
 # Firejail profile for leafpad
+# Description: A notepad clone for GTK+ 2.0
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/leafpad.local

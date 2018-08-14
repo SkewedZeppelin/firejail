@@ -1,4 +1,5 @@
 # Firejail profile for smplayer
+# Description: Media player with built-in codecs that can play virtually all video and audio formats
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/smplayer.local

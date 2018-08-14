@@ -1,4 +1,5 @@
 # Firejail profile for sqlitebrowser
+# Description: SQLite Database browser is a light GUI editor for SQLite databases, built on top of Qt
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/sqlitebrowser.local

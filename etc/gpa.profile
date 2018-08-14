@@ -1,4 +1,5 @@
 # Firejail profile for gpa
+# Description: A graphical user interface for the GnuPG
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gpa.local

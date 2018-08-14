@@ -1,4 +1,5 @@
 # Firejail profile for mutt
+# Description: Small but very powerful text-based mail client
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mutt.local

@@ -1,4 +1,5 @@
 # Firejail profile for ranger
+# Description: A simple, vim-like file manager
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/ranger.local

@@ -1,4 +1,5 @@
 # Firejail profile for darktable
+# Description: Utility to organize and develop raw images
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/darktable.local

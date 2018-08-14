@@ -1,4 +1,5 @@
 # Firejail profile for okular
+# Description: Document Viewer
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/okular.local

@@ -1,4 +1,5 @@
 # Firejail profile for dnscrypt-proxy
+# Description: DNS proxy, supporting encrypted DNS protocols such as DNSCrypt v2 and DNS-over-HTTP.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/dnscrypt-proxy.local

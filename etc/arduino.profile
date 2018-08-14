@@ -1,4 +1,5 @@
 # Firejail profile for arduino
+# Description: Arduino prototyping platform SDK
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/arduino.local

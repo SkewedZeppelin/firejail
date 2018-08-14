@@ -1,4 +1,5 @@
 # Firejail profile for gnome-maps
+# Description: A simple GNOME 3 maps application
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gnome-maps.local

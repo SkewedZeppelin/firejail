@@ -1,4 +1,5 @@
 # Firejail profile for gajim
+# Description: Full featured and easy to use XMPP (Jabber) client
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gajim.local

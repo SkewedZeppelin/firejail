@@ -1,4 +1,5 @@
 # Firejail profile for skanlite
+# Description: Image Scanning Application for KDE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/skanlite.local

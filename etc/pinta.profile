@@ -1,4 +1,5 @@
 # Firejail profile for pinta
+# Description: Drawing/editing program modeled after Paint.NET. It's goal is to provide a simplified alternative to GIMP for casual users
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pinta.local

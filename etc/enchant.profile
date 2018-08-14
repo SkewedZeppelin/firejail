@@ -1,4 +1,5 @@
 # Firejail profile for enchant
+# Description: A wrapper library for generic spell checking
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/enchant.local

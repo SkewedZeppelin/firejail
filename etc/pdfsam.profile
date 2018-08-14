@@ -1,4 +1,5 @@
 # Firejail profile for pdfsam
+# Description: A free open source tool to split and merge pdf documents
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pdfsam.local

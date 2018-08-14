@@ -1,4 +1,5 @@
 # Firejail profile for akregator
+# Description: A Feed Reader by KDE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/akregator.local

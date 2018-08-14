@@ -1,4 +1,5 @@
 # Firejail profile for w3m
+# Description: Text-based Web browser as well as pager
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/w3m.local

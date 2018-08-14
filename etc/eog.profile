@@ -1,4 +1,5 @@
 # Firejail profile for eog
+# Description: Eye of Gnome
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/eog.local

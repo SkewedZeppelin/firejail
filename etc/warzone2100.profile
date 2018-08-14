@@ -1,4 +1,5 @@
 # Firejail profile for warzone2100
+# Description: 3D realtime strategy game on a future Earth
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/warzone2100.local

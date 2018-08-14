@@ -1,4 +1,5 @@
 # Firejail profile for remmina
+# Description: remote desktop client written in GTK+
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/remmina.local

@@ -1,4 +1,5 @@
 # Firejail profile for cpio
+# Description: A tool to copy files into or out of a cpio or tar archive
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

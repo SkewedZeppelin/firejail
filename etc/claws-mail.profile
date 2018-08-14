@@ -1,4 +1,5 @@
 # Firejail profile for claws-mail
+# Description: A GTK+ based e-mail client.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/claws-mail.local

@@ -1,4 +1,5 @@
 # Firejail profile for hashcat
+# Description: Multithreaded advanced password recovery utility
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

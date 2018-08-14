@@ -1,4 +1,5 @@
 # Firejail profile for transmission-qt
+# Description: Fast, easy, and free BitTorrent client (Qt GUI)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/transmission-qt.local

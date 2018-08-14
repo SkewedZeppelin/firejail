@@ -1,4 +1,5 @@
 # Firejail profile for gnome-builder
+# Description: An IDE for writing GNOME-based software
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gnome-builder.local

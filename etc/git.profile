@@ -1,4 +1,5 @@
 # Firejail profile for git
+# Description: the fast distributed version control system
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

@@ -1,4 +1,5 @@
 # Firejail profile for fetchmail
+# Description: A remote-mail retrieval utility
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/fetchmail.local

@@ -1,4 +1,5 @@
 # Firejail profile for rhythmbox
+# Description: Music playback and management application
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/rhythmbox.local

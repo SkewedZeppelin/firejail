@@ -1,4 +1,5 @@
 # Firejail profile for amule
+# Description: An eMule-like client for ed2k p2p network
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/amule.local

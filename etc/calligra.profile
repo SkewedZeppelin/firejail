@@ -1,4 +1,5 @@
 # Firejail profile for calligra
+# Description: A set of applications for productivity and creative usage
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/calligra.local

@@ -1,4 +1,5 @@
 # Firejail profile for keepassxc
+# Description: Cross-platform community-driven port of Keepass password manager
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/keepassxc.local

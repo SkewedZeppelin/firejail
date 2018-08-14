@@ -1,4 +1,5 @@
 # Firejail profile for youtube-dl
+# Description: A small command-line program to download videos from YouTube.com and a few more sites
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

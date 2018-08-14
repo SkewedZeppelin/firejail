@@ -1,4 +1,5 @@
 # Firejail profile for audacious
+# Description: Lightweight, advanced audio player focused on audio quality
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/audacious.local

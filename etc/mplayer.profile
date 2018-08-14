@@ -1,4 +1,5 @@
 # Firejail profile for mplayer
+# Description: Media player for Linux
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mplayer.local

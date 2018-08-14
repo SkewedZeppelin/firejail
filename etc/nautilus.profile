@@ -1,4 +1,5 @@
 # Firejail profile for nautilus
+# Description: Default file manager for GNOME
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/nautilus.local

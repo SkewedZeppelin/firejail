@@ -1,4 +1,5 @@
 # Firejail profile for mediainfo
+# Description: Supplies technical and tag information about a video or audio file (CLI interface)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mediainfo.local

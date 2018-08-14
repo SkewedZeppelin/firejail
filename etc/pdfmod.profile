@@ -1,4 +1,5 @@
 # Firejail profile for pdfmod
+# Description: Simple application for modifying PDF written in C Sharp
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pdfmod.local

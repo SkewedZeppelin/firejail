@@ -1,4 +1,5 @@
 # Firejail profile for blender
+# Description: A fully integrated 3D graphics creation suite
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/blender.local

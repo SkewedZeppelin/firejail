@@ -1,4 +1,5 @@
 # Firejail profile for mpd
+# Description: Flexible, powerful, server-side application for playing music
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mpd.local

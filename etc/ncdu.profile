@@ -1,4 +1,5 @@
 # Firejail profile for ncdu
+# Description: Disk usage analyzer with an ncurses interface
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/ncdu.local

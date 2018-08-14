@@ -1,4 +1,5 @@
 # Firejail profile for pluma
+# Description: A powerful text editor for MATE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/pluma.local

@@ -1,4 +1,5 @@
 # Firejail profile for bluefish
+# Description: A powerful HTML editor for experienced web designers and programmers
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/bluefish.local

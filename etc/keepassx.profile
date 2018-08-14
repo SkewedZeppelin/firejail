@@ -1,4 +1,5 @@
 # Firejail profile for keepassx
+# Description: Password manager
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/keepassx.local

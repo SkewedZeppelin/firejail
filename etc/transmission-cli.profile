@@ -1,4 +1,5 @@
 # Firejail profile for transmission-cli
+# Description: Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/transmission-cli.local

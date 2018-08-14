@@ -1,4 +1,5 @@
 # Firejail profile for konversation
+# Description: A user-friendly and fully-featured IRC client
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/konversation.local

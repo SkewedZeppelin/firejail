@@ -1,4 +1,5 @@
 # Firejail profile for liferea
+# Description: A desktop news aggregator for online news feeds and weblogs
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/liferea.local

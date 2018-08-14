@@ -1,4 +1,5 @@
 # Firejail profile for gucharmap
+# Description: Gnome Unicode Charmap
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gucharmap.local

@@ -1,4 +1,5 @@
 # Firejail profile for mumble
+# Description: A voice chat application similar to TeamSpeak
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mumble.local

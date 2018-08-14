@@ -1,4 +1,5 @@
 # Firejail profile for xpra
+# Description: multi-platform screen and application forwarding system screen for X11
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/xpra.local

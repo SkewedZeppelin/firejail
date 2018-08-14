@@ -1,4 +1,5 @@
 # Firejail profile for ktorrent
+# Description: A powerful BitTorrent client for KDE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/ktorrent.local

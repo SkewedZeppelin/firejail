@@ -1,4 +1,5 @@
 # Firejail profile for eom
+# Description: An image viewing and cataloging program for MATE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/eom.local

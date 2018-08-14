@@ -1,4 +1,5 @@
 # Firejail profile for smtube
+# Description: A small youtube browser
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/smtube.local

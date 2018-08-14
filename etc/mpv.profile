@@ -1,4 +1,5 @@
 # Firejail profile for mpv
+# Description: a free, open source, and cross-platform media player
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/mpv.local

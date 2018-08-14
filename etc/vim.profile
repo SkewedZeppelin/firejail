@@ -1,4 +1,5 @@
 # Firejail profile for vim
+# Description: Vi Improved, a highly configurable, improved version of the vi text editor
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/vim.local

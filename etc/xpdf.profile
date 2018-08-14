@@ -1,4 +1,5 @@
 # Firejail profile for xpdf
+# Description: Viewer for Portable Document Format (PDF) files
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/xpdf.local

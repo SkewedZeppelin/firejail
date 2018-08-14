@@ -1,4 +1,5 @@
 # Firejail profile for playonlinux
+# Description: GUI for managing Windows programs under linux
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/playonlinux.local

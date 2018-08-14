@@ -1,4 +1,5 @@
 # Firejail profile for handbrake
+# Description: Multithreaded video transcoder
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/handbrake.local

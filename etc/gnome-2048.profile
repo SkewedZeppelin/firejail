@@ -1,4 +1,5 @@
 # Firejail profile for gnome-2048
+# Description: Obtain the 2048 tile
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gnome-2048.local

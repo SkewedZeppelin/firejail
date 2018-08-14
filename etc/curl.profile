@@ -1,4 +1,5 @@
 # Firejail profile for curl
+# Description: An URL retrieval utility and library
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

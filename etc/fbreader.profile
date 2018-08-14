@@ -1,4 +1,5 @@
 # Firejail profile for fbreader
+# Description: An e-book reader for Linux
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/fbreader.local

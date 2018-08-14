@@ -1,4 +1,5 @@
 # Firejail profile for wesnoth
+# Description: A turn-based strategy game on a fantasy world
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/wesnoth.local

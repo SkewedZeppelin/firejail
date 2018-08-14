@@ -1,4 +1,5 @@
 # Firejail profile for musescore
+# Description: Create, play and print beautiful sheet music
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/musescore.local

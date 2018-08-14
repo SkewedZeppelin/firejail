@@ -1,4 +1,5 @@
 # Firejail profile for dosbox
+# Description: Emulator with builtin DOS for running DOS Games
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/dosbox.local

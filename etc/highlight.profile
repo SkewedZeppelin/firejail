@@ -1,4 +1,5 @@
 # Firejail profile for highlight
+# Description: Fast and flexible source code highlighter (CLI version)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/highlight.local

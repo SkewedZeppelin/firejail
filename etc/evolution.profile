@@ -1,4 +1,5 @@
 # Firejail profile for evolution
+# Description: Manage your email, contacts and schedule
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/evolution.local

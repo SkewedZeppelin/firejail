@@ -1,4 +1,5 @@
 # Firejail profile for epiphany
+# Description: A GNOME web browser based on the WebKit rendering engine
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/epiphany.local

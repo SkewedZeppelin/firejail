@@ -1,4 +1,5 @@
 # Firejail profile for dnsmasq
+# Description: Lightweight, easy to configure DNS forwarder and DHCP server
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/dnsmasq.local

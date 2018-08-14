@@ -1,4 +1,5 @@
 # Firejail profile for audacity
+# Description: A program that lets you manipulate digital audio waveforms
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/audacity.local

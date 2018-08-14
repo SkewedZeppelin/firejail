@@ -1,4 +1,5 @@
 # Firejail profile for surf
+# Description: A simple web browser based on WebKit/GTK+.
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/surf.local

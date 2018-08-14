@@ -1,4 +1,5 @@
 # Firejail profile for nemo
+# Description: Cinnamon file manager (Nautilus fork)
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/nemo.local

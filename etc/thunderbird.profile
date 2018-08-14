@@ -1,4 +1,5 @@
 # Firejail profile for thunderbird
+# Description: Standalone mail and news reader from mozilla.org
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/thunderbird.local

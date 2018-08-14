@@ -1,4 +1,5 @@
 # Firejail profile for gitg
+# Description: A GIT repository viewer based on GTK+
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/gitg.local

@@ -1,4 +1,5 @@
 # Firejail profile for wget
+# Description: Network utility to retrieve files from the Web
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

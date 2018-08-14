@@ -1,4 +1,5 @@
 # Firejail profile for dia
+# Description: A GTK+ based diagram creation program
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/dia.local

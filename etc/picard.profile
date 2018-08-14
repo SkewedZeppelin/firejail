@@ -1,4 +1,5 @@
 # Firejail profile for picard
+# Description: Official MusicBrainz tagger
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/picard.local

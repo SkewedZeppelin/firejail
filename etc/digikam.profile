@@ -1,4 +1,5 @@
 # Firejail profile for digikam
+# Description: An advanced digital photo management application
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/digikam.local

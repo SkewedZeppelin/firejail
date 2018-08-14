@@ -1,4 +1,5 @@
 # Firejail profile for kodi
+# Description: A software media player and entertainment hub for digital media
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/kodi.local

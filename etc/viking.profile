@@ -1,4 +1,5 @@
 # Firejail profile for viking
+# Description: GTK+2 application to manage GPS data
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/viking.local

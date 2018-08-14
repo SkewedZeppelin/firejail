@@ -1,4 +1,5 @@
 # Firejail profile for firefox
+# Description: Standalone web browser from mozilla.org
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/firefox.local

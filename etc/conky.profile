@@ -1,4 +1,5 @@
 # Firejail profile for conky
+# Description: Lightweight system monitor for X
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/conky.local

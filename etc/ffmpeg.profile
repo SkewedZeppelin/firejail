@@ -1,4 +1,5 @@
 # Firejail profile for ffmpeg
+# Description: Complete solution to record, convert and stream audio and video
 # This file is overwritten after every install/update
 quiet
 # Persistent local customizations

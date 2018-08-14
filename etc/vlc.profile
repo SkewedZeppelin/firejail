@@ -1,4 +1,5 @@
 # Firejail profile for vlc
+# Description: Multi-platform MPEG, VCD/DVD, and DivX player
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/vlc.local

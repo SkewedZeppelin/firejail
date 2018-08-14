@@ -1,4 +1,5 @@
 # Firejail profile for polari
+# Description: An IRC Client for GNOME
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/polari.local

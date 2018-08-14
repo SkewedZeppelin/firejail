@@ -1,4 +1,5 @@
 # Firejail profile for amarok
+# Description: The powerful music player for KDE
 # This file is overwritten after every install/update
 # Persistent local customizations
 include /etc/firejail/amarok.local
